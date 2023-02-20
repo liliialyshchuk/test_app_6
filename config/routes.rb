@@ -1,3 +1,4 @@
 Rails.application.routes.draw do
-  root 'pages#home'  #home action within pages controller
+  root 'pages#home'
+  get 'about', to: 'pages#about'
 end
