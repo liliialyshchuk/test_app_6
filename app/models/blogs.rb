@@ -1,3 +1,3 @@
-class Blogs < ApplicationRecord
+class articles < ApplicationRecord
     
 end
