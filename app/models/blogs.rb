@@ -1,3 +1,0 @@
-class Blogs < ApplicationRecord
-    
-end
