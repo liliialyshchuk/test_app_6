@@ -1,5 +1,47 @@
-@import 'bootstrap/dist/css/bootstrap';
+@import "bootstrap/dist/css/bootstrap";
 
 .navbar {
-  background-color: #FDF6EA !important;
+background-color: #6df0f7 !important;
 }
+
+.nav-link {
+    color:  #000608 !important;
+}
+
+
+#logo {
+  float: left;
+  font-size: 1.7em;
+  color: #0e5a5e;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+
+#home-container {
+  margin-top: 25px;
+  }
+
+
+.jumbotron {
+    background-image: asset-url('mountains.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+
+html,
+body {
+  height: 100%;
+}
+
+#page-content {
+  flex: 1 0 auto;
+  background-color: lightblue;
+}
+
+#sticky-footer {
+  flex-shrink: none;
